@@ -1,0 +1,11 @@
+// ==========================================================================
+//
+// Utility method for converting text to uppercase and adjusting
+// letter-spacing accordingly (caps need more room)
+//
+//
+
+@mixin uppercase() {
+    text-transform: uppercase;
+    letter-spacing:0.1em;
+}
