@@ -1,0 +1,26 @@
+//------------------------------------------------------------
+//------------------------------------------------------------
+// Create breakpoints with custom fall back 
+//------------------------------------------------------------
+
+@mixin breakpoint($break) {
+  @if $break == large {
+    @media (max-width: 1420px) { @content; }
+  }
+  @else if $break == medium {
+    @media (max-width: 1200px) { @content; }
+  }
+  @else if $break == small {
+    @media (max-width: 760px) { @content; }
+  } @else {
+    @media ($break) { @content; }
+  }
+}
+
+// body {
+//  background: pink;
+//  @include breakpoint(large) { background: red; }
+//  @include breakpoint(medium) { background: cyan; }
+//  @include breakpoint(small) { background: green; }
+//  @include breakpoint(“max-width: 480px”) { background: yellow; }
+// }
