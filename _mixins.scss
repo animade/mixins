@@ -4,12 +4,15 @@
 //
 // 
 
-// CSS
-@import "css/breakpoint";
-@import "css/opacity";
 
 // Forms
 @import "forms/placeholder";
+
+// Layout
+@import "layout/breakpoint";
+
+// Style
+@import "style/opacity";
 
 // Typography
 @import "typography/optimize-font";
