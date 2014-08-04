@@ -1,0 +1,26 @@
+{
+  "name": "sass-mixins",
+  "version": "1.0.0",
+  "homepage": "https://github.com/animade/mixins",
+  "maintainers": [
+    "Simon Neveu <simon@animade.tv>"
+  ],
+  "description": "A set of basic reusable sass components",
+  "main": "[]",
+  "keywords": [
+    "sass",
+    "mixins"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests",
+    "test",
+    ".gitignore",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "bugs": "https://github.com/animade/mixins/issues"
+}
