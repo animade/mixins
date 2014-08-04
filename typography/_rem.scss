@@ -1,0 +1,10 @@
+// ==========================================================================
+//
+// Uses rems with a px fallback
+//
+//
+
+@mixin rem($val: 16) {
+  font-size: $val + px;
+  font-size: (0.125 * $val) + rem;
+}
