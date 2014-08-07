@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "homepage": "https://github.com/animade/mixins",
   "maintainers": [
-    "James Chambers <james@animade.tv>"
-    "Mike Guppy <mike@animade.tv>"
-    "Daniel Powell <dan@animade.tv>"
+    "James Chambers <james@animade.tv>",
+    "Mike Guppy <mike@animade.tv>",
+    "Daniel Powell <dan@animade.tv>",
     "Simon Neveu <simon@animade.tv>"
   ],
   "description": "A set of basic reusable sass components",
